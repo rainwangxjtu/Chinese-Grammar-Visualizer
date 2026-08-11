@@ -58,7 +58,7 @@ Chinese Sentence
 For a sentence such as:
 
 ```text
-一个猫抓老鼠
+猫抓一只老鼠
 ```
 
 the dependency structure can be conceptually represented as:
@@ -74,7 +74,7 @@ the dependency structure can be conceptually represented as:
                     │
                   nummod
                     │
-                   一个
+                   一只
 ```
 
 The analyzer starts from the `ROOT` node and follows relevant dependency edges to identify grammatical relationships.
